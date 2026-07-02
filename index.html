@@ -499,58 +499,66 @@
     <h2>Impressionen</h2>
     <div class="gallery-scroll" id="gallery">
       <div class="gallery-item" onclick="openLightbox(0)">
+        <img src="Wohnzimmer.PNG" alt="Wohnzimmer" loading="lazy" />
+        <div class="gallery-caption">Wohnzimmer</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(1)">
         <img src="Kueche.png" alt="Küche" loading="lazy" />
         <div class="gallery-caption">Küche</div>
       </div>
-      <div class="gallery-item" onclick="openLightbox(1)">
+      <div class="gallery-item" onclick="openLightbox(2)">
         <img src="Kueche2.png" alt="Küche – Ansicht 2" loading="lazy" />
         <div class="gallery-caption">Küche – Ansicht 2</div>
       </div>
-      <div class="gallery-item" onclick="openLightbox(2)">
+      <div class="gallery-item" onclick="openLightbox(3)">
         <img src="Badzimmer.jpeg" alt="Badezimmer" loading="lazy" />
         <div class="gallery-caption">Badezimmer</div>
       </div>
-      <div class="gallery-item" onclick="openLightbox(3)">
+      <div class="gallery-item" onclick="openLightbox(4)">
         <img src="Balkon.jpeg" alt="Balkon" loading="lazy" />
         <div class="gallery-caption">Balkon</div>
       </div>
-      <div class="gallery-item" onclick="openLightbox(4)">
+      <div class="gallery-item" onclick="openLightbox(5)">
+        <img src="Treppen.PNG" alt="Treppen" loading="lazy" />
+        <div class="gallery-caption">Treppen</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(6)">
         <img src="Treppen.jpeg" alt="Treppenaufgang" loading="lazy" />
         <div class="gallery-caption">Treppenaufgang</div>
       </div>
-      <div class="gallery-item" onclick="openLightbox(5)">
+      <div class="gallery-item" onclick="openLightbox(7)">
         <img src="Schlafzimmer-1.jpeg" alt="Schlafzimmer" loading="lazy" />
         <div class="gallery-caption">Schlafzimmer</div>
       </div>
-      <div class="gallery-item" onclick="openLightbox(6)">
+      <div class="gallery-item" onclick="openLightbox(8)">
         <img src="Schlafzimmer-2.jpeg" alt="Schlafzimmer – Ansicht 2" loading="lazy" />
         <div class="gallery-caption">Schlafzimmer – Ansicht 2</div>
       </div>
-      <div class="gallery-item" onclick="openLightbox(7)">
+      <div class="gallery-item" onclick="openLightbox(9)">
         <img src="Ankleidezimmer-1.png" alt="Ankleidezimmer" loading="lazy" />
         <div class="gallery-caption">Ankleidezimmer</div>
       </div>
-      <div class="gallery-item" onclick="openLightbox(8)">
+      <div class="gallery-item" onclick="openLightbox(10)">
         <img src="Ankleidezimmer-2.jpeg" alt="Ankleidezimmer – Ansicht 2" loading="lazy" />
         <div class="gallery-caption">Ankleidezimmer – Ansicht 2</div>
       </div>
-      <div class="gallery-item" onclick="openLightbox(9)">
+      <div class="gallery-item" onclick="openLightbox(11)">
         <img src="Arbeitszimmer-1.png" alt="Arbeitszimmer – Schiebetür geschlossen" loading="lazy" />
         <div class="gallery-caption">Arbeitszimmer – Schiebetür geschlossen</div>
       </div>
-      <div class="gallery-item" onclick="openLightbox(10)">
+      <div class="gallery-item" onclick="openLightbox(12)">
         <img src="Arbeitszimmer-3.jpeg" alt="Arbeitszimmer – Schiebetür geöffnet" loading="lazy" />
         <div class="gallery-caption">Arbeitszimmer – Schiebetür geöffnet</div>
       </div>
-      <div class="gallery-item" onclick="openLightbox(11)">
+      <div class="gallery-item" onclick="openLightbox(13)">
         <img src="Arbeitszimmer-4.jpeg" alt="Arbeitszimmer – Ansicht 3" loading="lazy" />
         <div class="gallery-caption">Arbeitszimmer – Ansicht 3</div>
       </div>
-      <div class="gallery-item" onclick="openLightbox(12)">
+      <div class="gallery-item" onclick="openLightbox(14)">
         <img src="Speicherraum-1.jpeg" alt="Speicherraum" loading="lazy" />
         <div class="gallery-caption">Speicherraum</div>
       </div>
-      <div class="gallery-item" onclick="openLightbox(13)">
+      <div class="gallery-item" onclick="openLightbox(15)">
         <img src="Speicherraum-2.jpeg" alt="Speicherraum – Ansicht 2" loading="lazy" />
         <div class="gallery-caption">Speicherraum – Ansicht 2</div>
       </div>
@@ -561,11 +569,11 @@
   <div class="card">
     <h2>Grundrisse</h2>
     <div class="floorplans">
-      <div class="floorplan-item" onclick="openLightbox(14)">
+      <div class="floorplan-item" onclick="openLightbox(16)">
         <img src="Grundiss-2OG.jpeg" alt="Grundriss 2. Obergeschoss" loading="lazy" />
         <div class="floorplan-caption">2. Obergeschoss</div>
       </div>
-      <div class="floorplan-item" onclick="openLightbox(15)">
+      <div class="floorplan-item" onclick="openLightbox(17)">
         <img src="Grundiss-DG.jpeg" alt="Grundriss Dachgeschoss" loading="lazy" />
         <div class="floorplan-caption">Dachgeschoss</div>
       </div>
@@ -779,10 +787,12 @@
 
 <script>
   const images = [
+    { src: "Wohnzimmer.PNG", alt: "Wohnzimmer" },
     { src: "Kueche.png", alt: "Küche" },
     { src: "Kueche2.png", alt: "Küche – Ansicht 2" },
     { src: "Badzimmer.jpeg", alt: "Badezimmer" },
     { src: "Balkon.jpeg", alt: "Balkon" },
+    { src: "Treppen.PNG", alt: "Treppen" },
     { src: "Treppen.jpeg", alt: "Treppenaufgang" },
     { src: "Schlafzimmer-1.jpeg", alt: "Schlafzimmer" },
     { src: "Schlafzimmer-2.jpeg", alt: "Schlafzimmer – Ansicht 2" },
